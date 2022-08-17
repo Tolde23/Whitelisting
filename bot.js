@@ -9,12 +9,12 @@ const App = Express();
 // ----- Settings ----- \\
 const Settings = {
   //THIS IS IMPORTANT\\
-  GUILD_ID: "", // THIS IS VERY IMPORTANT, THIS IS THE ID OF YOUR SERVER, SEARCH ON YOUTUBE HOW TO GET IT IF YOU DONT KNOW HOW
-  OWNER_ID: "", // THIS IS VERY IMPORTANT, THIS IS THE ID OF YOUR PROFILE, SEARCH ON YOUTUBE HOW TO GET IT IF YOU DONT KNOW HOW
-  Shoppy_API_KEY: "APIKEYHERE", // Create a Shoppy account If you haven't, then go to https://shoppy.gg/user/settings and look for your "API-KEY".
-  Whitelisted_Role_ID: "IDHERE", // When users use the !whitelist or !rewhitelist command, they get this role.
+  GUILD_ID: "985389973895274566", // THIS IS VERY IMPORTANT, THIS IS THE ID OF YOUR SERVER, SEARCH ON YOUTUBE HOW TO GET IT IF YOU DONT KNOW HOW
+  OWNER_ID: "924452031664635944", // THIS IS VERY IMPORTANT, THIS IS THE ID OF YOUR PROFILE, SEARCH ON YOUTUBE HOW TO GET IT IF YOU DONT KNOW HOW
+  Shoppy_API_KEY: "sEKbGBdRLJ91qV5snJbvWiAnQBjBO9Zz92dSiCgPq872FKj3GY", // Create a Shoppy account If you haven't, then go to https://shoppy.gg/user/settings and look for your "API-KEY".
+  Whitelisted_Role_ID: "1003574085219012638", // When users use the !whitelist or !rewhitelist command, they get this role.
   Blacklisted_Role_ID: "IDHERE", // When users who are not whitelist use the !rewhitelist command with a buyers Shoppy Order ID, they get this role.
-  LogsChannel_Channel_ID: "IDHERE", // Create a channel for logs when a user is whtelisted or uses a command!
+  LogsChannel_Channel_ID: "1003574169902006342", // Create a channel for logs when a user is whtelisted or uses a command!
   //----------------\\
   KeyDataStart: "Data_" ,// The Data for the keys
   UsersDataStart: "UsersData_", // The Data for the users
